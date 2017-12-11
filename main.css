@@ -17,3 +17,7 @@ p {
 li {
 	color: #DD0000;
 }
+
+li .indeces {
+	margin:	0 15px 0 0;
+}
