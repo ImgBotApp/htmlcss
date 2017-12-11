@@ -1,2 +1,19 @@
 body {
+	border: solid 5px #000000;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+p {
+	color: #00DD00;
+}
+
+li {
+	color: #DD0000;
 }
