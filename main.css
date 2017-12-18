@@ -13,13 +13,13 @@ body {
 
 h1 {
 	text-align: center;
-	font-family: "Permanent Marker", Palatino, serif;
+	font-family: 'Permanent Marker', Palatino, serif;
 	font-size: 24px;
 }
 
 h2 {
 	text-align: left;
-	font-family: "Josephin Sans", Helvetica, sans-serif;
+	font-family: 'Josephin Sans', Helvetica, sans-serif;
 	font-size: 18px;
 }
 
@@ -33,4 +33,5 @@ li {
 
 li .indeces {
 	margin:	0 15px 0 0;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
 }
