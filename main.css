@@ -1,6 +1,14 @@
+html, body, h1, h2, h3, h4, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
 body {
 	border: solid 5px #000000;
-	background-color: #885555;
+	background-color: #FFF9EE;
 }
 
 h1 {
