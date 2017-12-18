@@ -8,23 +8,25 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 
 body {
 	border: solid 5px #000000;
-	background-color: #FFF9EE;
+	background-color: #FFFFEE;
 }
 
 h1 {
 	text-align: center;
+	font-family: "Permanent Marker", Palatino, serif;
 }
 
 h2 {
 	text-align: left;
+	font-family: "Josephin Sans", Helectiva, sans-serif;
 }
 
 p {
-	color: #00DD00;
+	color: #222222;
 }
 
 li {
-	color: #DD0000;
+	color: #444444;
 }
 
 li .indeces {
