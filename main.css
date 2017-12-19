@@ -36,8 +36,11 @@ ol {
 	font-size: 24px;
 }
 
-li .indeces {
+li {
 	padding: 0 0 0 15px;
 	margin: 0 0 0 15px;
+}
+
+li .indeces {
 	font-family: 'Maven Pro', Helvetica, sans-serif;
 }
