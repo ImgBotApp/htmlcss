@@ -28,11 +28,12 @@ h2 {
 
 p {
 	color: #222222;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
 }
 
 ol {
 	color: #444444;
-	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 24px;
 }
 
