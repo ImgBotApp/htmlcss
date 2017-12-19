@@ -37,10 +37,7 @@ ol {
 }
 
 li {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
 	padding: 15px 15px 15px 30px;
 	margin: 0 0 0 15px;
-}
-
-li .indeces {
-	font-family: 'Maven Pro', Helvetica, sans-serif;
 }
