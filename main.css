@@ -5,13 +5,12 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 	font-size: 100%;
 	font: inherit;
 	text-decoration: none;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 body {
 	background-color: #333333;
 	padding: 15px 15px 15px 15px;
-	color: #FFFFFF;
 }
 
 h1, h2 {
@@ -44,7 +43,7 @@ ul li {
 }
 
 .header ul li a:hover {
-	border-bottom: 6px solid #0099FF;
+	border-bottom: 6px solid #0066FF;
 }
 
 .indeces {
