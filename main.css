@@ -30,25 +30,17 @@ h3, p {
 p {
 }
 
-ul {
+.navi {
 	font-size: 36px;
 	text-align: center;
-}
-
-ol {
-	font-family: Helvetica, sans-serif;
-}
-
-ul li {
 	padding: 15px 15px 15px 15px;
 	margin: 0 0 0 30px;
 	display: inline;
-}
-
-.header ul li a:hover {
 	border-bottom: 6px solid #0066FF;
+	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
-.indeces {
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
+
+ol {
+	font-family: Helvetica, sans-serif;
 }
