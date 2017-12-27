@@ -9,7 +9,7 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 }
 
 body {
-	background-color: #555555;
+	background-color: #333333;
 	padding: 15px 15px 15px 15px;
 }
 
@@ -44,8 +44,9 @@ ul li {
 	display: inline;
 }
 
-.header {
-	border: solid 5px #66AAFF;
+.header ul li a:hover {
+	font-weight: bold;
+	border-bottom: 6px solid #0000FF;
 }
 
 .indeces {
