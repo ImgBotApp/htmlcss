@@ -31,9 +31,12 @@ p {
 }
 
 ul {
-	font-family: Helvetica, sans-serif;
 	font-size: 24px;
 	text-align: center;
+}
+
+ol {
+	font-family: Helvetica, sans-serif;
 }
 
 ul li {
@@ -47,5 +50,5 @@ ul li {
 }
 
 .indeces {
-	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
