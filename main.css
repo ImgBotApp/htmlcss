@@ -42,11 +42,11 @@ ul li {
 	padding: 15px 15px 15px 15px;
 	margin: 0 0 0 30px;
 	display: inline;
-	color: #555555
+	color: #AAAAAA;
 }
 
 .header ul li a:hover {
-	color: #222222
+	color: #FFFFFF;
 	border-bottom: 6px solid #0099FF;
 }
 
