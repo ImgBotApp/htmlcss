@@ -4,6 +4,8 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 	margin: 0;
 	font-size: 100%;
 	font: inherit;
+	text-decoration: none;
+	color: #000000;
 }
 
 body {
