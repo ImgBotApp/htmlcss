@@ -37,19 +37,22 @@ ol {
 	font-family: Helvetica, sans-serif;
 }
 
-.header .navi li {
-	padding: 15px 15px 15px 15px;
-	margin: 0 0 0 30px;
-	display: inline;
+ol .indeces {
+	font-family: 'Gochi Hand', Helvetica, sans-serif;
+}
+
+.header .navi {
 	font-size: 36px;
 	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
-.header .navi li a:hover {
-	border-bottom: 6px solid #0066FF;
+.header .navi li {
+	padding: 15px 15px 15px 15px;
+	margin: 0 0 0 30px;
+	display: inline;
 }
 
-.indeces {
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
+.header .navi li a:hover {
+	border-bottom: 6px solid #0066FF;
 }
