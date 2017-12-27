@@ -39,6 +39,7 @@ ul {
 li {
 	padding: 15px 15px 15px 15px;
 	margin: 0 0 0 30px;
+	display: inline;
 }
 
 .indeces {
