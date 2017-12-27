@@ -45,8 +45,8 @@ ol .indeces {
 	font-size: 36px;
 	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
-	border-top: 6px solid #00FF66;
-	border-bottom: 6px solid #00FF66;
+	border-top: 6px solid #33DD00;
+	border-bottom: 6px solid #33DD00;
 }
 
 .header .navi li {
@@ -56,5 +56,5 @@ ol .indeces {
 }
 
 .header .navi li a:hover {
-	border-bottom: 6px solid #0066FF;
+	border-bottom: 6px solid #0033DD;
 }
