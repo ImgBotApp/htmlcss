@@ -45,6 +45,8 @@ ol .indeces {
 	font-size: 36px;
 	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
+	border-top: 6px solid #00FF66;
+	border-bottom: 6px solid #00FF66;
 }
 
 .header .navi li {
