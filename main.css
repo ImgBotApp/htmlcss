@@ -9,7 +9,7 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 }
 
 body {
-	background-color: #66AAFF;
+	background-color: #555555;
 	padding: 15px 15px 15px 15px;
 }
 
@@ -28,11 +28,11 @@ h3, p {
 }
 
 p {
-	color: #DDDDDD;
+	color: #66AAFF;
 }
 
 ul {
-	color: #DDDDDD;
+	color: #66AAFF;
 	font-family: Helvetica, sans-serif;
 	font-size: 24px;
 	text-align: center;
@@ -45,7 +45,7 @@ ul li {
 }
 
 .header {
-	border: solid 5px #DDDDDD;
+	border: solid 5px #66AAFF;
 }
 
 .indeces {
