@@ -59,12 +59,12 @@ ol .indeces {
 .header .navi:hover {
 	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
-	border-top: 2px solid #009900;
+	border-top: 6px solid #009900;
 	border-bottom: 2px solid #009900;
 }
 
 
 .header .navi li a:hover {
-	border-top: 2px solid #0066DD;
+	border-top: 6px solid #0066DD;
 	border-bottom: 2px solid #0066DD;
 }
