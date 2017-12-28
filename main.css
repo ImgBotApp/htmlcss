@@ -39,10 +39,7 @@ ol {
 
 .header {
 	margin: 25px auto 25px auto;
-}
-
-.header .title {
-	width: 150px;
+	text-align: center;
 }
 
 .header .title a:hover {
@@ -62,7 +59,6 @@ ol {
 	border-bottom: 2px solid #AAAAAA;
 	background-color: #222222;
 	font-size: 28px;
-	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
