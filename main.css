@@ -20,8 +20,16 @@ h1, h2 {
 	font-weight: bold;
 }
 
-h1:hover {
-	color: #CCCC00;
+h1 a:hover {
+	color: #FF2200;
+}
+
+h1 .selected {
+	color: #0077FF;
+}
+
+h1 .selected:hover {
+	color: #FFFFFF;
 }
 
 h3, p {
