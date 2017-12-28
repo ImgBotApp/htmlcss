@@ -41,6 +41,10 @@ ol {
 	margin: 25px auto 25px auto;
 }
 
+.header .title {
+	width: 150px;
+}
+
 .header .title a:hover {
 	color: #FF2200;
 }
