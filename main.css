@@ -61,8 +61,11 @@ ol .indeces {
 
 .header .navi li {
 	padding: 5px 15px 5px 15px;
-	margin: 0 30px 0 30px;
 	display: inline;
+}
+
+.header .navi li a {
+	padding: 0px 15px 0px 15px;
 }
 
 .header .navi li .selected {
