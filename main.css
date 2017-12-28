@@ -79,9 +79,9 @@ ol .indeces {
 
 .header .navi li a:hover {
 	padding: 5px 0 5px 0;
-	border-color: 6px solid #FF2200;
+	border-color: #FF2200;
 }
 
 .selected a:hover {
-	border-color: 6px solid #FF2200;
+	border-color: #FF2200;
 }
