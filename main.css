@@ -43,12 +43,12 @@ ol .indeces {
 
 .header .navi {
 	padding: 15px 0 15px 0;
-	font-size: 32px;
-	text-align: center;
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
 	border-top: 6px solid #555555;
 	border-bottom: 2px solid #555555;
 	background-color: #000000;
+	font-size: 32px;
+	text-align: center;
+	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
 .header .navi li {
@@ -58,14 +58,15 @@ ol .indeces {
 }
 
 .header .navi:hover {
-	text-align: center;
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
 	border-top: 6px solid #009900;
 	border-bottom: 2px solid #009900;
+	text-align: center;
+	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
 
 .header .navi li a:hover, .selected {
+	padding: 15px 0 15px 0;
 	border-top: 6px solid #0066DD;
 	border-bottom: 2px solid #0066DD;
 }
