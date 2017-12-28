@@ -85,7 +85,7 @@ ol .indeces {
 }
 
 .header .navi .selected a:hover {
-	padding: 5px 15px 5px 15px;
+	padding: 5px 0 5px 0;
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
