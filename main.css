@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 {
-	font-size: 48px;
+	font-size: 56px;
 }
 
 .header h1 a:hover {
@@ -29,7 +29,7 @@ body {
 }
 
 .header h1 .selected {
-	color: #0077FF;
+	color: #0088FF;
 }
 
 .header h1 .selected:hover {
@@ -58,8 +58,8 @@ body {
 }
 
 .header ul li .selected {
-	border-top: 6px solid #0077FF;
-	border-bottom: 2px solid #0077FF;
+	border-top: 6px solid #0088FF;
+	border-bottom: 2px solid #0088FF;
 }
 
 .header ul li .selected:hover {
@@ -68,17 +68,16 @@ body {
 }
 
 .main {
-	width: 850px;
+	width: 900px;
 	margin: 25px auto 25px auto;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 .main h3 {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 .main p {
-	margin: 25px 0 25px 0;
-	text-align: left;
+	font-size: 18px;
 }
