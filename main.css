@@ -13,75 +13,56 @@ body {
 	padding: 15px 15px 15px 15px;
 }
 
-h1, h2 {
-	font-family: 'Gochi Hand', Palatino, serif;
-	font-size: 48px;
-	font-weight: bold;
-}
-
-h3, p {
-	margin: 25px 0 25px 0;
-	text-align: left;
-	font-family: 'Josefin Sans', Helvetica, sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-p {
-}
-
-ul {
-}
-
-ol {
-	font-family: Helvetica, sans-serif;
-}
-
 .header {
 	margin: 25px auto 25px auto;
 	text-align: center;
+	font-family: 'Gochi Hand', Palatino, serif;
+	
 }
 
-.header .title a:hover {
+.header h1 {
+	font-size: 48px;
+}
+
+.header h1 a:hover {
 	color: #FF2200;
 }
 
-.header .title .selected {
+.header h1 .selected {
 	color: #0077FF;
 }
 
-.header .title .selected:hover {
+.header h1 .selected:hover {
 	color: #FFFFFF;
 }
 
-.header .navi {
+.header ul {
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
 	background-color: #222222;
 	font-size: 28px;
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
-.header .navi li {
+.header ul li {
 	padding: 5px 15px 5px 15px;
 	display: inline;
 }
 
-.header .navi li a {
+.header ul li a {
 	padding: 0px 15px 0px 15px;
 }
 
-.header .navi li a:hover {
+.header ul li a:hover {
 	border-top: 6px solid #FF2200;
 	border-bottom: 2px solid #FF2200;
 }
 
-.header .navi li .selected {
+.header ul li .selected {
 	border-top: 6px solid #0077FF;
 	border-bottom: 2px solid #0077FF;
 }
 
-.header .navi li .selected:hover {
+.header ul li .selected:hover {
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
@@ -89,4 +70,15 @@ ol {
 .main {
 	width: 850px;
 	margin: 25px auto 25px auto;
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+}
+
+.main h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.main p {
+	margin: 25px 0 25px 0;
+	text-align: left;
 }
