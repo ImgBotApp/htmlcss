@@ -20,6 +20,10 @@ h1, h2 {
 	font-weight: bold;
 }
 
+h1:hover {
+	color: #CCCC00;
+}
+
 h3, p {
 	margin: 25px 0 25px 0;
 	text-align: left;
