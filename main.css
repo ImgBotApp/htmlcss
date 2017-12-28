@@ -51,7 +51,7 @@ ol .indeces {
 }
 
 .header .navi li {
-	padding: 15px 15px 15px 15px;
+	padding: 30px 15px 30px 15px;
 	margin: 0 0 0 30px;
 	display: inline;
 }
@@ -64,7 +64,7 @@ ol .indeces {
 }
 
 
-.header .navi li a:hover {
+.header .navi li a:hover, .selected {
 	border-top: 6px solid #0066DD;
 	border-bottom: 2px solid #0066DD;
 }
