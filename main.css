@@ -41,6 +41,10 @@ ol .indeces {
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
 }
 
+.header h2 {
+	margin: 10px 0 10px 0;
+}
+
 .header .navi {
 	padding: 10px 0 10px 0;
 	border-top: 6px solid #555555;
