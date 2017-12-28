@@ -66,7 +66,7 @@ ol .indeces {
 	display: inline;
 }
 
-.selected {
+.header .navi .selected {
 	padding: 5px 0 5px 0;
 	border-color: #0066FF;
 }
@@ -82,6 +82,6 @@ ol .indeces {
 	border-color: #FF2200;
 }
 
-.selected a:hover {
+.header .navi .selected a:hover {
 	border-color: #FF2200;
 }
