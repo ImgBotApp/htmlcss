@@ -15,7 +15,7 @@ body {
 
 h1, h2 {
 	text-align: center;
-	font-family: 'Maven Pro', Palatino, serif;
+	font-family: 'Gochi Hand', Palatino, serif;
 	font-size: 48px;
 	font-weight: bold;
 }
@@ -71,7 +71,7 @@ ol .indeces {
 	border-top: 6px solid #009900;
 	border-bottom: 2px solid #009900;
 	text-align: center;
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
 }
 
 
