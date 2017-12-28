@@ -37,7 +37,7 @@ body {
 }
 
 .header ul {
-	padding: 25px;
+	padding-left: 25px;
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
 	background-color: #222222;
