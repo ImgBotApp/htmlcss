@@ -68,7 +68,8 @@ ol .indeces {
 
 .header .navi .selected {
 	padding: 5px 0 5px 0;
-	border-color: #0066FF;
+	border-top-color: #0066FF;
+	border-bottom-color: #0066FF;
 }
 
 .header .navi:hover {
@@ -79,9 +80,11 @@ ol .indeces {
 
 .header .navi li a:hover {
 	padding: 5px 0 5px 0;
-	border-color: #FF2200;
+	border-top-color: #FF2200;
+	border-bottom-color: #FF2200;
 }
 
 .header .navi .selected a:hover {
-	border-color: #FF2200;
+	border-top-color: #FF2200;
+	border-bottom-color: #FF2200;
 }
