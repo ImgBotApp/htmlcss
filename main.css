@@ -44,12 +44,13 @@ body {
 }
 
 .header ul li {
-	padding: 5px 15px 5px 10px;
+	margin-left: 5px;
+	padding: 5px 15px 5px 15px;
 	display: inline;
 }
 
 .header ul li a {
-	padding: 0px 15px 0px 20px;
+	padding: 0px 15px 0px 15px;
 }
 
 .header ul li a:hover {
