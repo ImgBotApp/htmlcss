@@ -73,11 +73,12 @@ body {
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
-.main h3 {
-	font-size: 24px;
-	font-weight: bold;
+.main h3, p {
+	margin-top: 20px;
+	font-size: 20px;
 }
 
-.main p {
-	font-size: 18px;
+.main h3 {
+	font-weight: bold;
+	text-align: center;
 }
