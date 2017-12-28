@@ -42,8 +42,7 @@ ol .indeces {
 }
 
 .header .navi {
-	padding: 15px 15px 15px 15px;
-	margin: 0 0 0 30px;
+	padding: 15px 0 15px 0;
 	font-size: 32px;
 	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
@@ -53,6 +52,8 @@ ol .indeces {
 }
 
 .header .navi li {
+	padding: 15px 15px 15px 15px;
+	margin: 0 0 0 30px;
 	display: inline;
 }
 
