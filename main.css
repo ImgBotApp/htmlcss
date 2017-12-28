@@ -52,8 +52,8 @@ ol .indeces {
 
 .header .navi {
 	padding: 5px 0 5px 0;
-	border-top: 6px solid #FFFFFF;
-	border-bottom: 2px solid #FFFFFF;
+	border-top: 6px solid #AAAAAA;
+	border-bottom: 2px solid #AAAAAA;
 	background-color: #555555;
 	font-size: 28px;
 	text-align: center;
@@ -68,8 +68,7 @@ ol .indeces {
 
 .selected {
 	padding: 5px 0 5px 0;
-	border-top: 6px solid #00AAFF;
-	border-bottom: 2px solid #00AAFF;
+	border-color: #0066FF;
 }
 
 .header .navi:hover {
@@ -80,6 +79,9 @@ ol .indeces {
 
 .header .navi li a:hover {
 	padding: 5px 0 5px 0;
-	border-top: 6px solid #FF5500;
-	border-bottom: 2px solid #FF5500;
+	border-color: 6px solid #FF2200;
+}
+
+.selected a:hover {
+	border-color: 6px solid #FF2200;
 }
