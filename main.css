@@ -25,7 +25,7 @@ body {
 }
 
 .header h1 a:hover {
-	color: #EE2200;
+	color: #EE3311;
 }
 
 .header h1 .selected {
@@ -55,8 +55,8 @@ body {
 }
 
 .header ul li a:hover {
-	border-top: 6px solid #EE2200;
-	border-bottom: 2px solid #EE2200;
+	border-top: 6px solid #EE3311;
+	border-bottom: 2px solid #EE3311;
 }
 
 .header ul li .selected {
@@ -71,7 +71,7 @@ body {
 
 .main {
 	margin-top: 48px;
-	padding: 0 300px 0 300px;
+	padding: 0 300px;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
