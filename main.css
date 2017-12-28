@@ -71,8 +71,7 @@ body {
 
 .main {
 	margin-top: 48px;
-	width: 900px;
-	margin: 25px auto 25px auto;
+	padding: 0 300px 0 300px;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
