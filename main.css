@@ -14,22 +14,9 @@ body {
 }
 
 h1, h2 {
-	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;
 	font-size: 48px;
 	font-weight: bold;
-}
-
-h1 a:hover {
-	color: #FF2200;
-}
-
-h1 .selected {
-	color: #0077FF;
-}
-
-h1 .selected:hover {
-	color: #FFFFFF;
 }
 
 h3, p {
@@ -50,12 +37,20 @@ ol {
 	font-family: Helvetica, sans-serif;
 }
 
-ol .indeces {
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
+.header {
+	margin: 25px auto 25px auto;
 }
 
-.header h2 {
-	margin: 25px 0 25px 0;
+.header .title a:hover {
+	color: #FF2200;
+}
+
+.header .title .selected {
+	color: #0077FF;
+}
+
+.header .title .selected:hover {
+	color: #FFFFFF;
 }
 
 .header .navi {
@@ -76,14 +71,14 @@ ol .indeces {
 	padding: 0px 15px 0px 15px;
 }
 
-.header .navi li .selected {
-	border-top: 6px solid #0077FF;
-	border-bottom: 2px solid #0077FF;
-}
-
 .header .navi li a:hover {
 	border-top: 6px solid #FF2200;
 	border-bottom: 2px solid #FF2200;
+}
+
+.header .navi li .selected {
+	border-top: 6px solid #0077FF;
+	border-bottom: 2px solid #0077FF;
 }
 
 .header .navi li .selected:hover {
