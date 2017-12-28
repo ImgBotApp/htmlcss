@@ -51,8 +51,6 @@ ol .indeces {
 }
 
 .header .navi {
-	padding: 5px 15px 5px 15px;
-	margin: 0 30px 0 30px;
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
 	background-color: #222222;
@@ -62,6 +60,8 @@ ol .indeces {
 }
 
 .header .navi li {
+	padding: 5px 15px 5px 15px;
+	margin: 0 30px 0 30px;
 	display: inline;
 }
 
