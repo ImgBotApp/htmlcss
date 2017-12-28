@@ -54,7 +54,7 @@ ol .indeces {
 	padding: 5px 0 5px 0;
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
-	background-color: #555555;
+	background-color: #222222;
 	font-size: 28px;
 	text-align: center;
 	font-family: 'Gochi Hand', Helvetica, sans-serif;
@@ -68,8 +68,8 @@ ol .indeces {
 
 .header .navi .selected {
 	padding: 5px 0 5px 0;
-	border-top: 6px solid #0066FF;
-	border-bottom: 2px solid #0066FF;
+	border-top: 6px solid #0077FF;
+	border-bottom: 2px solid #0077FF;
 }
 
 .header .navi:hover {
@@ -85,6 +85,7 @@ ol .indeces {
 }
 
 .header .navi .selected a:hover {
-	border-top: 6px solid #FF2200;
-	border-bottom: 2px solid #FF2200;
+	padding: 5px 0 5px 0;
+	border-top: 6px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
 }
