@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-	margin: 25px auto 25px auto;
+	margin-top: 32px;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;
 	
@@ -37,6 +37,7 @@ body {
 }
 
 .header ul {
+	margin-top: 32px;
 	padding-left: 20px;
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
@@ -69,13 +70,13 @@ body {
 }
 
 .main {
+	margin-top: 32px;
 	width: 900px;
 	margin: 25px auto 25px auto;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 .main h3 {
-	margin-top: 32px;
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
@@ -83,6 +84,7 @@ body {
 }
 
 .main p {
+	margin-top: 24px;
 	font-size: 20px;
 	text-align: justify;
 	line-height: 24px;
