@@ -65,23 +65,17 @@ ol .indeces {
 	display: inline;
 }
 
-.header .navi .selected {
+.header .navi li .selected {
 	border-top: 6px solid #0077FF;
 	border-bottom: 2px solid #0077FF;
 }
-
-.header .navi:hover {
-	text-align: center;
-	font-family: 'Gochi Hand', Helvetica, sans-serif;
-}
-
 
 .header .navi li a:hover {
 	border-top: 6px solid #FF2200;
 	border-bottom: 2px solid #FF2200;
 }
 
-.header .navi .selected a:hover {
+.header .navi li .selected:hover {
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
