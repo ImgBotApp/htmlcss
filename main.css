@@ -94,6 +94,15 @@ body {
 	line-height: 24px;
 }
 
+.main label {
+	width: 100px;
+	float: left;
+}
+
+.main input {
+	width: 300px;
+}
+
 .main a {
 	text-decoration: underline;
 	color: #0088FF;
@@ -103,15 +112,6 @@ body {
 	color: #EE3311;
 }
 
-.main ul .field {
+.main tr {
 	display: block;
-}
-
-.main ul .field form label {
-	width: 100px;
-	float: left;
-}
-
-.main ul .field form input {
-	width: 300px;
 }
