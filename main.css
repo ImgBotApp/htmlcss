@@ -105,6 +105,12 @@ body {
 
 .main input[type="submit"] {
 	width: 75px;
+	font-weight: bold;
+}
+
+.main textarea {
+	width: 300px;
+	height:300px;
 }
 
 .main a {
