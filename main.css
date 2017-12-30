@@ -114,6 +114,7 @@ g
 
 .main textarea {
 	height:300px;
+	border-radius: 5px;
 }
 
 .main a {
