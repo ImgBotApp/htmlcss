@@ -15,7 +15,7 @@ body {
 
 .header {
 	margin-top: 32px;
-	text-align: center;
+	text-align: right;
 	font-family: 'Gochi Hand', Palatino, serif;
 	
 }
@@ -71,13 +71,12 @@ body {
 
 .main {
 	padding: 0 300px;
-	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	font-family: 'Inconsolata', Courier, serif;
 }
 
 .main h3, h4 {
 	margin-top: 72px;
 	font-weight: bold;
-	text-transform: uppercase;
 }
 
 .main h3 {
@@ -93,5 +92,4 @@ body {
 	font-size: 20px;
 	text-align: justify;
 	line-height: 24px;
-	font-family: 'Inconsolata', Courier, serif;
 }
