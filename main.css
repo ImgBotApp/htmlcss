@@ -15,12 +15,12 @@ body {
 
 .header {
 	margin-top: 32px;
-	text-align: right;
 	font-family: 'Gochi Hand', Palatino, serif;
 	
 }
 
 .header h1 {
+	text-align: right;
 	font-size: 56px;
 }
 
@@ -42,6 +42,7 @@ body {
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
 	background-color: #222222;
+	text-align: center;
 	font-size: 28px;
 }
 
