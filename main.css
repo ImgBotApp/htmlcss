@@ -22,6 +22,7 @@ body {
 .header h1 {
 	text-align: right;
 	font-size: 56px;
+	padding-right: 300px;
 }
 
 .header h1 a:hover {
