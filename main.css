@@ -103,6 +103,10 @@ body {
 	width: 300px;
 }
 
+.main input[type="submit"] {
+	width: 75px;
+}
+
 .main a {
 	text-decoration: underline;
 	color: #0088FF;
