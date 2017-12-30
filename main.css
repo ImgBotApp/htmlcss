@@ -94,10 +94,6 @@ body {
 	line-height: 24px;
 }
 
-.main form label {
-	width: 100px;
-}
-
 .main a {
 	text-decoration: underline;
 	color: #0088FF;
@@ -109,4 +105,12 @@ body {
 
 .main ul .field {
 	display: block;
+}
+
+.main ul .field label {
+	width: 100px;
+}
+
+.main ul .field input {
+	width: 300px;
 }
