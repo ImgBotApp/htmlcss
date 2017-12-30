@@ -75,18 +75,17 @@ body {
 }
 
 .main h3, h4 {
-	margin-top: 48px;
+	margin-top: 72px;
 	font-weight: bold;
-	text-align: center;
 	text-transform: uppercase;
 }
 
 .main h3 {
-	font-size: 18px;
+	font-size: 36px;
 }
 
 .main h4 {
-	font-size: 15px;
+	font-size: 30px;
 }
 
 .main p {
