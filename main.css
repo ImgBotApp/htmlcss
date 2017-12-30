@@ -109,6 +109,7 @@ body {
 
 .main ul .field form label {
 	width: 100px;
+	float: left;
 }
 
 .main ul .field form input {
