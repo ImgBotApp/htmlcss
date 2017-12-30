@@ -104,14 +104,13 @@ body {
 }
 
 .main ul .field {
-	display: inline;
-	float: left;
+	display: block;
 }
 
-.main ul .field label {
+.main ul .field form label {
 	width: 100px;
 }
 
-.main ul .field input {
+.main ul .field form input {
 	width: 300px;
 }
