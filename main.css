@@ -98,7 +98,7 @@ body {
 	width: 100px;
 	float: left;
 }
-g
+
 .main input[id="name", "email"] {
 	width: 300px;
 }
@@ -113,8 +113,7 @@ g
 }
 
 .main textarea {
-	height:300px;
-	border-radius: 5px;
+	height: 300px;
 }
 
 .main a {
