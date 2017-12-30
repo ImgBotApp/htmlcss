@@ -98,12 +98,12 @@ body {
 	width: 100px;
 	float: left;
 }
-
-.main input {
+g
+.main input[id="name", "email"] {
 	width: 300px;
 }
 
-.main input[id="subject". "message"] {
+.main input[id="subject"], textarea[id="message"] {
 	width: 600px;
 }
 
