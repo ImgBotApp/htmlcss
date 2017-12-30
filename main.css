@@ -102,3 +102,7 @@ body {
 .main a:hover {
 	color: #EE3311;
 }
+
+.main ul .field {
+	display: block;
+}
