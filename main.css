@@ -97,6 +97,7 @@ body {
 .main label {
 	width: 100px;
 	float: left;
+	vertical-align: top;
 }
 
 .main input[id="name", "email"] {
