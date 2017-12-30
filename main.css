@@ -93,3 +93,12 @@ body {
 	text-align: justify;
 	line-height: 24px;
 }
+
+.main a {
+	text-decoration: underline;
+	color: #0088FF;
+}
+
+.main a:hover {
+	color: #EE3311;
+}
