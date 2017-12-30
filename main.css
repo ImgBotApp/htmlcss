@@ -70,12 +70,12 @@ body {
 }
 
 .main {
-	margin-top: 48px;
 	padding: 0 300px;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 .main h3, h4 {
+	margin-top: 48px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
