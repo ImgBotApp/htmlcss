@@ -103,13 +103,16 @@ body {
 	width: 300px;
 }
 
+.main input[id="subject". "message"] {
+	width: 600px;
+}
+
 .main input[type="submit"] {
 	width: 75px;
 	font-weight: bold;
 }
 
 .main textarea {
-	width: 300px;
 	height:300px;
 }
 
