@@ -173,6 +173,10 @@ body {
 }
 
 .footer input[type="submit"]:active {
+	background-color: #FFFFFF;
+}
+
+.footer input[type="submit"]:active {
 	background-color: #555555;
-	border-color: #AAAAAA;
+	border-color: #FFFFFF;
 }
