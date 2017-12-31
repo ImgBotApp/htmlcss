@@ -174,4 +174,5 @@ body {
 
 .footer input[type="submit"]:active {
 	background-color: #555555;
+	border-color: #AAAAAA;
 }
