@@ -131,7 +131,6 @@ body {
 
 .footer {
 	margin-top: 32px;
-	padding-bottom: 15px;
 	border-top: 2px solid #AAAAAA;
 	border-bottom: 6px solid #AAAAAA;
 	background-color: #222222;
@@ -141,7 +140,7 @@ body {
 }
 
 .footer p {
-	margin-top: 24px;
+	padding: 24px 0;
 }
 
 .footer input[type="submit"] {
