@@ -93,6 +93,11 @@ body {
 	line-height: 24px;
 }
 
+.main form {
+	font-family: Arial, sans-senif;
+	color: #000000;
+}
+
 .main label {
 	width: 100px;
 	float: left;
