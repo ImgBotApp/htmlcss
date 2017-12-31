@@ -69,10 +69,10 @@ body {
 	border-bottom: 2px solid #FFFFFF;
 }
 
-.main {
+.main, .footer {
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
-	font-weight: bold;git
+	font-weight: bold;
 }
 
 .main h3, h4 {
@@ -87,7 +87,7 @@ body {
 	font-size: 30px;
 }
 
-.main p, form {
+.main p, form, .footer {
 	margin-top: 24px;
 	font-size: 20px;
 	text-align: justify;
