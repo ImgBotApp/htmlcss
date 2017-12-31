@@ -100,13 +100,13 @@ body {
 
 .main input, .main textarea {
 	border: 2px solid #222222;
-	background-color: #AAAAAA;
+	background-color: #FFFFFF;
 	font-weight: normal;
 	color: #000000;
 }
 
 .main input:focus, .main textarea:focus {
-	border: 2px solid #FFAA00;
+	border-color: #FFAA00;
 }
 
 .main input[id="name"], .main input[id="email"] {
@@ -119,11 +119,16 @@ body {
 
 .main input[type="submit"] {
 	width: 75px;
+	background-color: #777777;
 	font-weight: bold;
 }
 
+.main input[type="submit"]:hover {
+	border-color: #FFAA00;
+}
+
 .main input[type="submit"]:active {
-	border: 2px solid #AAAAAA;
+	border-color: #AAAAAA;
 	background-color: #777777;
 }
 
