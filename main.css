@@ -132,4 +132,5 @@ body {
 
 .footer input[type="submit"] {
 	font-weight: bold;
+	text-align:center;
 }
