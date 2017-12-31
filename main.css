@@ -130,7 +130,9 @@ body {
 }
 
 .footer {
-	border-top: 6px solid #AAAAAA;
+	margin-top: 32px;
+	border-top: 2px solid #AAAAAA;
+	border-bottom: 6px solid #AAAAAA;
 	background-color: #222222;
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
