@@ -172,7 +172,7 @@ body {
 	color: #000000;
 }
 
-.footer input[type="submit"]:active {
+.footer input[type="submit"]:hover {
 	background-color: #FFFFFF;
 }
 
