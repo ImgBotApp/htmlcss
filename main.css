@@ -86,6 +86,20 @@ body {
 	font-size: 30px;
 }
 
+.main a {
+	text-decoration: underline;
+	color: #0088FF;
+}
+
+.main a:hover {
+	color: #EE3311;
+}
+
+.main tr {
+	display: block;
+	vertical-align: top;
+}
+
 .main p, .main form {
 	margin-top: 24px;
 	font-size: 20px;
@@ -117,6 +131,10 @@ body {
 	width: 1000px;
 }
 
+.main textarea[id="message"] {
+	height: 300px;
+}
+
 .main input[type="submit"] {
 	width: 75px;
 	border-color: #222222;
@@ -130,24 +148,6 @@ body {
 .main input[type="submit"]:active {
 	border-color: #AAAAAA;
 	background-color: #AAAAAA;
-}
-
-.main textarea {
-	height: 300px;
-}
-
-.main a {
-	text-decoration: underline;
-	color: #0088FF;
-}
-
-.main a:hover {
-	color: #EE3311;
-}
-
-.main tr {
-	display: block;
-	vertical-align: top;
 }
 
 .footer {
@@ -165,6 +165,13 @@ body {
 }
 
 .footer input[type="submit"] {
+	width: 150px;
+	border-color: #222222;
 	font-weight: bold;
 	color: #000000;
+}
+
+.footer input[type="submit"]:active {
+	border-color: #AAAAAA;
+	background-color: #AAAAAA;
 }
