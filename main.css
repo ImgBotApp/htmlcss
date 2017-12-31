@@ -108,11 +108,6 @@ body {
 	border: 2px solid #FFAA00;
 }
 
-.main input:[id="name"]:factive {
-	border: 2px solid #AAAAAA;
-	background-color: #555555;
-}
-
 .main input[id="name"], .main input[id="email"] {
 	width: 500px;
 }
@@ -124,6 +119,11 @@ body {
 .main input[type="submit"] {
 	width: 75px;
 	font-weight: bold;
+}
+
+.main input[type="submit"]:active {
+	border: 2px solid #AAAAAA;
+	background-color: #555555;
 }
 
 .main textarea {
