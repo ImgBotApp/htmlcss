@@ -104,11 +104,11 @@ body {
 }
 
 .main input[id="name", "email"] {
-	width: 300px;
+	width: 600px;
 }
 
 .main input[id="subject"], textarea[id="message"] {
-	width: 600px;
+	width: 1200px;
 }
 
 .main input[type="submit"] {
