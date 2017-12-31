@@ -101,6 +101,16 @@ body {
 .main input, .main textarea {
 	font-weight: normal;
 	color: #000000;
+	border: 2px solid #000000;
+}
+
+.main input:focus, .main textarea:focus {
+	border: 2px solid #FFAA00;
+}
+
+.main input:[id="name"]:factive {
+	border: 2px solid #AAAAAA;
+	background-color: #555555;
 }
 
 .main input[id="name"], .main input[id="email"] {
