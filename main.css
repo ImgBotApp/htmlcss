@@ -103,12 +103,12 @@ body {
 	color: #000000;
 }
 
-.main input[id="name", "email"] {
-	width: 600px;
+.main input[id="name"], .main input[id="email"] {
+	width: 500px;
 }
 
-.main input[id="subject"], textarea[id="message"] {
-	width: 1200px;
+.main input[id="subject"], .main textarea[id="message"] {
+	width: 1000px;
 }
 
 .main input[type="submit"] {
