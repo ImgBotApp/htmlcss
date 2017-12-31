@@ -9,15 +9,15 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 }
 
 body {
-	background-color: #555555;
 	padding: 15px 15px 15px 15px;
+	background-color: #555555;
 }
 
 .header {
 	margin-top: 32px;
 	text-align: center;
-	font-family: 'Gochi Hand', Palatino, serif;
-	
+	background-color: #AAAAAA;
+	font-family: 'Gochi Hand', Palatino, serif;	
 }
 
 .header h1 {
