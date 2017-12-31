@@ -108,7 +108,6 @@ body {
 }
 
 .main input[type="submit"] {
-	margin-left: 100px;
 	width: 75px;
 	font-weight: bold;
 }
