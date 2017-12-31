@@ -99,9 +99,10 @@ body {
 }
 
 .main input, .main textarea {
+	border: 2px solid #222222;
+	background-color: #AAAAAA;
 	font-weight: normal;
 	color: #000000;
-	border: 2px solid #000000;
 }
 
 .main input:focus, .main textarea:focus {
@@ -123,7 +124,7 @@ body {
 
 .main input[type="submit"]:active {
 	border: 2px solid #AAAAAA;
-	background-color: #555555;
+	background-color: #777777;
 }
 
 .main textarea {
