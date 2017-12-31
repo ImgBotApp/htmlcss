@@ -16,7 +16,6 @@ body {
 .header {
 	margin-top: 32px;
 	text-align: center;
-	background-color: #AAAAAA;
 	font-family: 'Gochi Hand', Palatino, serif;	
 }
 
@@ -131,6 +130,8 @@ body {
 }
 
 .footer {
+	border-top: 6px solid #AAAAAA;
+	background-color: #222222;
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
 	text-align: center;
