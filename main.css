@@ -129,8 +129,8 @@ body {
 }
 
 .main input[type="submit"]:active {
-	border: #AAAAAA;
 	border-width: 2px 4px;
+	border-color: #AAAAAA;
 	background-color: #777777;
 }
 
