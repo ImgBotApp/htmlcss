@@ -17,125 +17,124 @@ body {
 	margin-top: 32px;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;
-	
-}
 
-.header h1 {
-	font-size: 56px;
-}
+	h1 {
+		font-size: 56px;
+	}
 
-.header h1 a:hover {
-	color: #EE3311;
-}
+	h1 a:hover {
+		color: #EE3311;
+	}
 
-.header h1 .selected {
-	color: #0088FF;
-}
+	h1 .selected {
+		color: #0088FF;
+	}
 
-.header h1 .selected:hover {
-	color: #FFFFFF;
-}
+	h1 .selected:hover {
+		color: #FFFFFF;
+	}
 
-.header ul {
-	margin-top: 32px;
-	padding-left: 20px;
-	border-top: 6px solid #AAAAAA;
-	border-bottom: 2px solid #AAAAAA;
-	background-color: #222222;
-	font-size: 28px;
-}
+	ul {
+		margin-top: 32px;
+		padding-left: 20px;
+		border-top: 6px solid #AAAAAA;
+		border-bottom: 2px solid #AAAAAA;
+		background-color: #222222;
+		font-size: 28px;
+	}
 
-.header ul li {
-	padding: 5px 15px 5px 15px;
-	display: inline;
-}
+	ul li {
+		padding: 5px 15px 5px 15px;
+		display: inline;
+	}
 
-.header ul li a {
-	padding: 0px 15px 0px 15px;
-}
+	ul li a {
+		padding: 0px 15px 0px 15px;
+	}
 
-.header ul li a:hover {
-	border-top: 6px solid #EE3311;
-	border-bottom: 2px solid #EE3311;
-}
+	ul li a:hover {
+		border-top: 6px solid #EE3311;
+		border-bottom: 2px solid #EE3311;
+	}
 
-.header ul li .selected {
-	border-top: 6px solid #0088FF;
-	border-bottom: 2px solid #0088FF;
-}
+	ul li .selected {
+		border-top: 6px solid #0088FF;
+		border-bottom: 2px solid #0088FF;
+	}
 
-.header ul li .selected:hover {
-	border-top: 6px solid #FFFFFF;
-	border-bottom: 2px solid #FFFFFF;
+	ul li .selected:hover {
+		border-top: 6px solid #FFFFFF;
+		border-bottom: 2px solid #FFFFFF;
+	}
 }
 
 .main {
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
 	font-weight: bold;
-}
 
-.main h3, h4 {
-	margin-top: 72px;
-}
+	h3, h4 {
+		margin-top: 72px;
+	}
 
-.main h3 {
-	font-size: 36px;
-}
+	h3 {
+		font-size: 36px;
+	}
 
-.main h4 {
-	font-size: 30px;
-}
+	h4 {
+		font-size: 30px;
+	}
 
-.main p, form {
-	margin-top: 24px;
-	font-size: 20px;
-	text-align: justify;
-	line-height: 24px;
-}
+	p, .main form {
+		margin-top: 24px;
+		font-size: 20px;
+		text-align: justify;
+		line-height: 24px;
+	}
 
-.main label {
-	width: 100px;
-	float: left;
-}
+	label {
+		width: 100px;
+		float: left;
+	}
 
-.main input[id="name", "email"] {
-	width: 300px;
-}
+	input[id="name", "email"] {
+		width: 300px;
+	}
 
-.main input[id="subject"], textarea[id="message"] {
-	width: 600px;
-}
+	input[id="subject"], textarea[id="message"] {
+		width: 600px;
+	}
 
-.main input[type="submit"] {
-	width: 75px;
-	font-weight: bold;
-}
+	input[type="submit"] {
+		width: 75px;
+		font-weight: bold;
+	}
 
-.main textarea {
-	height: 300px;
-}
+	textarea {
+		height: 300px;
+	}
 
-.main a {
-	text-decoration: underline;
-	color: #0088FF;
-}
+	a {
+		text-decoration: underline;
+		color: #0088FF;
+	}
 
-.main a:hover {
-	color: #EE3311;
-}
+	a:hover {
+		color: #EE3311;
+	}
 
-.main tr {
-	display: block;
-	vertical-align: top;
+	tr {
+		display: block;
+		vertical-align: top;
+	}
 }
 
 .footer {
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
-	text-align:center;
-}
+	text-align: center;
 
-.footer input[type="submit"] {
-	font-weight: bold;
+	input[type="submit"] {
+		font-weight: bold;
+	}
 }
