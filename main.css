@@ -131,12 +131,17 @@ body {
 
 .footer {
 	margin-top: 32px;
+	padding-bottom: 15px;
 	border-top: 2px solid #AAAAAA;
 	border-bottom: 6px solid #AAAAAA;
 	background-color: #222222;
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
 	text-align: center;
+}
+
+.footer p {
+	margin-top: 24px;
 }
 
 .footer input[type="submit"] {
