@@ -98,8 +98,8 @@ body {
 	float: left;
 }
 
-.main input {
-	font-family: Arial, sans-senif;
+.main input, .main textarea {
+	font-weight: normal;
 	color: #000000;
 }
 
@@ -150,4 +150,5 @@ body {
 
 .footer input[type="submit"] {
 	font-weight: bold;
+	color: #000000;
 }
