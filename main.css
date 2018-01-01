@@ -87,7 +87,7 @@ body {
 }
 
 .main ul {
-	display: block;
+	display: inline;
 }
 
 .main a {
