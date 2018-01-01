@@ -86,6 +86,10 @@ body {
 	font-size: 30px;
 }
 
+.main ul {
+	text-align: center;
+}
+
 .main ul li {
 	display: inline;
 }
