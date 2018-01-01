@@ -86,6 +86,10 @@ body {
 	font-size: 30px;
 }
 
+.main ul {
+	display: block;
+}
+
 .main a {
 	text-decoration: underline;
 	color: #0088FF;
