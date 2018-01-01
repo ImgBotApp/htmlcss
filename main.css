@@ -164,6 +164,12 @@ body {
 	background-color: #AAAAAA;
 }
 
+.main .iframe {
+	padding: 24px 0;
+	background-color: #AAAAAA;
+	text-align: center;
+}
+
 .footer {
 	margin-top: 32px;
 	border-top: 2px solid #AAAAAA;
