@@ -82,7 +82,7 @@ body {
 	display: inline;
 }
 
-.main .extensible:hover {
+.main .extensible:hover p {
 	border: 2px solid #FFFFFF;
 	display: inline;
 }
