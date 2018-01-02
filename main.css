@@ -78,8 +78,7 @@ body {
 	display: none;
 }
 
-.main .extensible input:focus + .adjacent {
-	border: 2px solid #FFFFFF;
+.main .extensible input:focus + ul {
 	display: block;
 }
 
