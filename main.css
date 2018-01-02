@@ -78,7 +78,7 @@ body {
 	display: none;
 }
 
-.main .extensible a:focus + p {
+.main .extensible a:focus {
 	border: 2px solid #FFFFFF;
 	display: block;
 }
