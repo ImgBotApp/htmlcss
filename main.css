@@ -82,7 +82,7 @@ body {
 	display: inline;
 }
 
-.main .extensible:focus {
+.main .extensible:hover {
 	border: 2px solid #FFFFFF;
 	display: inline;
 }
