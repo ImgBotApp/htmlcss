@@ -78,7 +78,7 @@ body {
 	display: none;
 }
 
-.main .extensible:active p, .main .extensible:active ul {
+.main .extensible:visited p, .main .extensible:visited ul {
 	border: 2px solid #FFFFFF;
 	display: block;
 }
