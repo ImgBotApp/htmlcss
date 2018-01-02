@@ -17,6 +17,7 @@ body {
 	position: fixed;
 	background-color: #555555;
 	margin-top: 32px;
+	width: 98%;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;	
 }
