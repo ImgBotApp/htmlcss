@@ -82,7 +82,7 @@ body {
 	display: block;
 }
 
-.main .extensible:active p, .main .extensible:active ul {
+.main .extensible:focus p, .main .extensible:focus ul {
 	border: 2px solid #FFFFFF;
 	display: block;
 }
