@@ -78,7 +78,7 @@ body {
 	display: none;
 }
 
-.main .extensible a:focus + p {
+.main .extensible input[type="button"]:focus + p {
 	border: 2px solid #FFFFFF;
 	display: block;
 }
