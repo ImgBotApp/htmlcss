@@ -82,7 +82,7 @@ body {
 	display: inline;
 }
 
-.main .extensible:focus {
+.main .extensible:focus p {
 	display: inline;
 }
 
