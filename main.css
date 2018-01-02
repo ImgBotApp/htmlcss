@@ -74,6 +74,10 @@ body {
 	font-weight: bold;
 }
 
+.main .extensible input {
+	background-color: #AAAAAA;
+}
+
 .main .extensible ul {
 	display: none;
 }
