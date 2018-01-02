@@ -79,12 +79,12 @@ body {
 }
 
 .main .extensible h5 {
-	display: inline;
+	display: block;
 }
 
-.main .extensible:hover p {
+.main .extensible:active p, .main .extensible:active ul {
 	border: 2px solid #FFFFFF;
-	display: inline;
+	display: block;
 }
 
 .main h3, .main h4, .main h5 {
