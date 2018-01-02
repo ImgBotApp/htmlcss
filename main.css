@@ -9,13 +9,14 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 }
 
 body {
-	padding: 15px 15px 15px 15px;
+	padding: 0 15px 15px 15px;
 	background-color: #555555;
 }
 
 .header {
 	position: fixed;
 	background-color: #555555;
+	padding-top: 48px;
 	width: 98%;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;	
