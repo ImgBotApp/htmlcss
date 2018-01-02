@@ -74,6 +74,18 @@ body {
 	font-weight: bold;
 }
 
+.main .extensible {
+	display: none;
+}
+
+.main .extensible h5 {
+	display: inline;
+}
+
+.main .extensible:focus {
+	display: inline;
+}
+
 .main h3, .main h4, .main h5 {
 	margin-top: 72px;
 }
@@ -88,6 +100,10 @@ body {
 
 .main h5 {
 	font-size: 24px;
+}
+
+.main .extensible {
+	
 }
 
 .main ul {
