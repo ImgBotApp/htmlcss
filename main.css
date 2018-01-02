@@ -78,11 +78,7 @@ body {
 	display: none;
 }
 
-.main .extensible h5 {
-	display: block;
-}
-
-.main .extensible:focus p, .main .extensible:focus ul {
+.main .extensible:active p, .main .extensible:active ul {
 	border: 2px solid #FFFFFF;
 	display: block;
 }
