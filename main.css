@@ -74,7 +74,7 @@ body {
 	font-weight: bold;
 }
 
-.main .extensible .adjacent {
+.main .extensible ul {
 	display: none;
 }
 
