@@ -83,6 +83,7 @@ body {
 }
 
 .main .extensible:focus p {
+	border: 2px solid #FFFFFF;
 	display: inline;
 }
 
