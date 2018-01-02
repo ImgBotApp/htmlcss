@@ -13,7 +13,7 @@ body {
 	background-color: #555555;
 }
 
-.header {
+.header, .navi {
 	margin-top: 32px;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;	
@@ -38,6 +38,9 @@ body {
 .navi {
 	position: sticky;
 	top: 0;
+}
+
+.navi ul {
 	margin-top: 32px;
 	padding-left: 20px;
 	border-top: 6px solid #AAAAAA;
@@ -46,26 +49,26 @@ body {
 	font-size: 28px;
 }
 
-.navi li {
+.navi ul li {
 	padding: 5px 15px 5px 15px;
 	display: inline;
 }
 
-.navi li a {
+.navi ul li a {
 	padding: 0px 15px 0px 15px;
 }
 
-.navi li a:hover {
+.navi ul li a:hover {
 	border-top: 6px solid #EE3311;
 	border-bottom: 2px solid #EE3311;
 }
 
-.navi li .selected {
+.navi ul li .selected {
 	border-top: 6px solid #0088FF;
 	border-bottom: 2px solid #0088FF;
 }
 
-.navi li .selected:hover {
+.navi ul li .selected:hover {
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
