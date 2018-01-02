@@ -35,6 +35,11 @@ body {
 	color: #FFFFFF;
 }
 
+.navi {
+	position: sticky;
+	top: 0;
+}
+
 .navi ul {
 	margin-top: 32px;
 	padding-left: 20px;
