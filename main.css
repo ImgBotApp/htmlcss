@@ -9,15 +9,12 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 }
 
 body {
-	padding: 0 15px 15px 15px;
+	padding: 15px 15px 15px 15px;
 	background-color: #555555;
 }
 
 .header {
-	position: fixed;
-	background-color: #555555;
-	padding-top: 48px;
-	width: 98%;
+	margin-top: 32px;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;	
 }
@@ -38,7 +35,7 @@ body {
 	color: #FFFFFF;
 }
 
-.header ul {
+.navi {
 	margin-top: 32px;
 	padding-left: 20px;
 	border-top: 6px solid #AAAAAA;
@@ -47,26 +44,26 @@ body {
 	font-size: 28px;
 }
 
-.header ul li {
+.navi li {
 	padding: 5px 15px 5px 15px;
 	display: inline;
 }
 
-.header ul li a {
+.navi li a {
 	padding: 0px 15px 0px 15px;
 }
 
-.header ul li a:hover {
+.navi li a:hover {
 	border-top: 6px solid #EE3311;
 	border-bottom: 2px solid #EE3311;
 }
 
-.header ul li .selected {
+.navi li .selected {
 	border-top: 6px solid #0088FF;
 	border-bottom: 2px solid #0088FF;
 }
 
-.header ul li .selected:hover {
+.navi li .selected:hover {
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
