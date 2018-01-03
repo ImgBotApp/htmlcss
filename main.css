@@ -9,8 +9,10 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 }
 
 body {
-	padding: 0 15px 15px 15px;
-	background-color: #555555;
+	padding-bottom: 15px;
+	margin: 0 15px;
+	border: 15px solid #555555
+	background-color: #AAAAAA;
 }
 
 .header {
@@ -78,7 +80,7 @@ body {
 }
 
 .main {
-	padding: 0 300px;
+	margin: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
 	font-weight: bold;
 }
