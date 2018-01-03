@@ -29,15 +29,15 @@ body {
 }
 
 .header h1 a:hover {
-	color: #EE3311;
+	border: 2px ridge #EE3311;
 }
 
 .header h1 .selected {
-	color: #0088FF;
+	border: 2px ridge #0088FF;
 }
 
 .header h1 .selected:hover {
-	color: #FFFFFF;
+	border: 2px ridge #FFFFFF;
 }
 
 .navi {
