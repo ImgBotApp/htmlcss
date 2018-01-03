@@ -210,6 +210,8 @@ body {
 
 .footer p {
 	padding: 24px 0;
+	position: sticky;
+	bottom: 0;
 }
 
 .footer input[type="submit"] {
