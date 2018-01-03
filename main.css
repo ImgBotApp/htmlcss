@@ -13,6 +13,11 @@ body {
 	background-color: #555555;
 }
 
+.header {
+	background-image: url(/images/wall-brick.jpg);
+	background-position: center center;
+}
+
 .header, .navi {
 	margin-top: 32px;
 	text-align: center;
