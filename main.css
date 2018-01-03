@@ -81,7 +81,8 @@ body {
 .main {
 	margin: 0 150px;
   	padding: 24px 150px;
-	border: 0 8px ridge #222222;
+	border-left: 8px ridge #222222;
+	border-right: 8px ridge #222222;
 	font-family: 'Inconsolata', Courier, serif;
 	font-weight: bold;
   	background-color: #665544;
