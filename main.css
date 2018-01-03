@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-	background-image: url(/images/wall-brick.jpg);
+	background-image: url(/images/wall-brick.jpg); /* credit to freeimages.com/photographer/phelle-33720 */
 	background-position: center center;
 	padding: 32px 0;
 }
