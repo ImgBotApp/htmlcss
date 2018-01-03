@@ -200,18 +200,26 @@ body {
 }
 
 .footer {
-	position: sticky;
-	bottom: 0;
-	border-top: 2px solid #AAAAAA;
-	border-bottom: 6px solid #AAAAAA;
 	background-color: #222222;
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
+}
+
+.footer .text {
+	position: absolute;
+	border-bottom: 6px solid #AAAAAA;
 	text-align: center;
 }
 
 .footer p {
 	padding: 24px 0;
+}
+
+.footer .scroll {
+	position: sticky;
+	bottom: 0;
+	border-top: 2px solid #AAAAAA;
+	text-align: center;
 }
 
 .footer input[type="submit"] {
