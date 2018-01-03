@@ -199,14 +199,6 @@ body {
 	text-align: center;
 }
 
-.text {
-	background-color: #222222;
-	padding: 15px 300px;
-	font-family: 'Inconsolata', Courier, serif;
-	border-bottom: 6px solid #AAAAAA;
-	text-align: center;
-}
-
 .scroll {
 	background-color: #222222;
 	padding: 0 300px;
@@ -233,4 +225,12 @@ body {
 	background-color: #555555;
 	border-style: inset;
 	border-color: #FFFFFF;
+}
+
+.footer {
+	background-color: #222222;
+	padding: 15px 300px;
+	font-family: 'Inconsolata', Courier, serif;
+	border-bottom: 6px solid #AAAAAA;
+	text-align: center;
 }
