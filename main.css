@@ -9,16 +9,15 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 }
 
 body {
-	padding-bottom: 15px;
-	border: 15px solid #555555;
-	background-color: #AAAAAA;
+	padding: 0 15px 15px 15px;
+	background-color: #555555;
 }
 
 .header {
 	background-image: url(/images/wall-brick.jpg); /* credit to freeimages.com/photographer/phelle-33720 */
 	background-position: center center;
 	padding: 32px 0;
-  background-color: #555555;
+  	background-color: #555555;
 }
 
 .header, .navi {
@@ -81,10 +80,10 @@ body {
 
 .main {
 	margin: 0 150px;
-  padding: 0 150px;
+  	padding: 0 150px;
 	font-family: 'Inconsolata', Courier, serif;
 	font-weight: bold;
-  background-color: #555555;
+  	background-color: #AA7744;
 }
 
 .main .extensible input {
