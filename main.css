@@ -200,6 +200,8 @@ body {
 }
 
 .footer {
+	position: sticky;
+	bottom: 0;
 	border-top: 2px solid #AAAAAA;
 	border-bottom: 6px solid #AAAAAA;
 	background-color: #222222;
@@ -210,8 +212,6 @@ body {
 
 .footer p {
 	padding: 24px 0;
-	position: sticky;
-	bottom: 0;
 }
 
 .footer input[type="submit"] {
