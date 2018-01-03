@@ -81,6 +81,7 @@ body {
 .main {
 	margin: 0 150px;
   	padding: 24px 150px;
+	border: 8px ridge #222222;
 	font-family: 'Inconsolata', Courier, serif;
 	font-weight: bold;
   	background-color: #665544;
@@ -116,7 +117,7 @@ body {
 
 .main ul {
 	padding: 24px 0;
-	border: 2px ridge #222222;
+	border: 4px ridge #222222;
 	background-color: #555555;
 	text-align: center;
 }
