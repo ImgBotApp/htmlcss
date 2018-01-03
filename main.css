@@ -172,8 +172,8 @@ body {
 
 .main input[type="submit"] {
 	width: 75px;
-	border-color: #222222;
 	border-style: outset;
+	border-color: #222222;
 	font-weight: bold;
 }
 
@@ -182,8 +182,8 @@ body {
 }
 
 .main input[type="submit"]:active {
-	border-color: #AAAAAA;
 	border-style: inset;
+	border-color: #AAAAAA;
 	background-color: #AAAAAA;
 }
 
@@ -210,7 +210,7 @@ body {
 .footer input[type="submit"] {
 	width: 150px;
 	background-color: #AAAAAA;
-	border: 2px solid #555555;
+	border: 2px outset #555555;
 	font-weight: bold;
 	color: #000000;
 }
@@ -221,5 +221,6 @@ body {
 
 .footer input[type="submit"]:active {
 	background-color: #555555;
+	border-style: inset;
 	border-color: #FFFFFF;
 }
