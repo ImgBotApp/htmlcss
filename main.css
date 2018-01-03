@@ -83,8 +83,6 @@ body {
   	padding: 24px 150px;
 	border-left: 2px solid #222222;
 	border-right: 2px solid #222222;
-	font-family: 'Inconsolata', Courier, serif;
-	font-weight: bold;
   	background-color: #665544;
 }
 
@@ -101,6 +99,7 @@ body {
 }
 
 .main h3, .main h4, .main h5 {
+	font-family: 'Gochi Hand', Palatino, serif;	
 	padding-top: 48px;
 }
 
@@ -146,6 +145,7 @@ body {
 	font-size: 20px;
 	text-align: justify;
 	line-height: 24px;
+	font-family: 'Inconsolata', Courier, serif;
 }
 
 .main label {
