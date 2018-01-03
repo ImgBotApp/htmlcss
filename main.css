@@ -80,7 +80,7 @@ body {
 
 .main {
 	margin: 0 150px;
-  	padding: 0 150px;
+  	padding: 24px 150px;
 	font-family: 'Inconsolata', Courier, serif;
 	font-weight: bold;
   	background-color: #665544;
@@ -99,7 +99,7 @@ body {
 }
 
 .main h3, .main h4, .main h5 {
-	padding-top: 72px;
+	padding-top: 48px;
 }
 
 .main h3 {
@@ -116,7 +116,7 @@ body {
 
 .main ul {
 	padding: 24px 0;
-	background-color: #AAAAAA;
+	background-color: #555555;
 	text-align: center;
 }
 
