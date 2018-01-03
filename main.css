@@ -9,17 +9,17 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 }
 
 body {
-	padding: 15px 15px 15px 15px;
+	padding: 0 15px 15px 15px;
 	background-color: #555555;
 }
 
 .header {
 	background-image: url(/images/wall-brick.jpg);
 	background-position: center center;
+	padding: 32px 0;
 }
 
 .header, .navi {
-	margin-top: 32px;
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;	
 }
@@ -46,7 +46,6 @@ body {
 }
 
 .navi ul {
-	margin-top: 32px;
 	padding-left: 20px;
 	border-top: 6px solid #AAAAAA;
 	border-bottom: 2px solid #AAAAAA;
