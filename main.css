@@ -173,6 +173,7 @@ body {
 .main input[type="submit"] {
 	width: 75px;
 	border-color: #222222;
+	border-style: outset;
 	font-weight: bold;
 }
 
@@ -182,6 +183,7 @@ body {
 
 .main input[type="submit"]:active {
 	border-color: #AAAAAA;
+	border-style: inset;
 	background-color: #AAAAAA;
 }
 
