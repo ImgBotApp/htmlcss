@@ -89,21 +89,21 @@ body {
 
 .main .extensible input {
 	background-color: inherit;
+	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
 	font-weight: bold;
-	color: #FFAA44;
-	text-decoration: underline;
-}
-
-.main .extensible input:hover {
-	color: #FFDDAA;
-}
-
-.main .extensible input[id="collapse"] {
-	display: none;
 }
 
 .main .extensible ul {
+	display: none;
+}
+
+.main .extensible input:hover {
+	border-color: #FFFFFF; 
+	color: #FFFFFF;
+}
+
+.main .extensible input[id="collapse"] {
 	display: none;
 }
 
@@ -156,12 +156,13 @@ body {
 }
 
 .main a {
-	text-decoration: underline;
+	border-bottom: 2px solid #0088FF;
 	color: #0088FF;
 }
 
 .main a:hover {
-	color: #AADDFF;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .main tr {
