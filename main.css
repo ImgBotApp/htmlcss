@@ -91,12 +91,28 @@ body {
 	background-color: #AAAAAA;
 }
 
+.main .extensible input[id="collapse"] {
+	display: none;
+}
+
 .main .extensible ul {
 	display: none;
 }
 
-.main .extensible input:focus + ul {
+.main .extensible input[id="expand"]:focus + ul {
 	display: block;
+}
+
+.main .extensible input[id="expand"]:focus ~ input[id="collapse"] {
+	display: inline;
+}
+
+.main .extensible input[id="collapse"]:focus ~ ul {
+	display: none;
+}
+
+.main .extensible input[id="collapse"]:focus ~ input[id="expand"] {
+	display: inline;
 }
 
 .main h3, .main h4, .main h5 {
