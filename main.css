@@ -87,18 +87,20 @@ body {
   	background-color: #222222;
 }
 
+.main .extensible ul {
+	display: none;
+}
+
 .main .extensible input {
 	background-color: inherit;
 	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
 	font-weight: bold;
-}
-
-.main .extensible ul {
-	display: none;
+	color: #FFAA44;
 }
 
 .main .extensible input:hover {
+	border: inherit;
 	border-color: #FFFFFF; 
 	color: #FFFFFF;
 }
