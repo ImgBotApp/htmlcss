@@ -95,11 +95,7 @@ body {
 	display: block;
 }
 
-.main .extensible ul:hover ~ input[id="expand"] {
-	display: none;
-}
-
-.main .extensible input {
+.main .extensible a {
 	background-color: inherit;
 	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
@@ -107,32 +103,32 @@ body {
 	color: #FFAA44;
 }
 
-.main .extensible input:hover {
+.main .extensible a:hover {
 	border-bottom: 2px solid #FFFFFF;
 	color: #FFFFFF;
 }
 
-.main .extensible input[id="collapse"] {
+.main .extensible .collapse] {
 	display: none;
 }
 
-.main .extensible input[id="expand"]:focus {
+.main .extensible .expand:target {
 	display: none;
 }
 
-.main .extensible input[id="expand"]:focus + ul {
+.main .extensible .expand:target + ul {
 	display: block;
 }
 
-.main .extensible input[id="expand"]:focus ~ input[id="collapse"] {
+.main .extensible .expand:target ~ .collapse {
 	display: inline;
 }
 
-.main .extensible input[id="collapse"]:focus ~ ul {
+.main .extensible .collapse:target ~ ul {
 	display: none;
 }
 
-.main .extensible input[id="collapse"]:focus ~ input[id="expand"] {
+.main .extensible .collapse:target ~ .expand {
 	display: inline;
 }
 
