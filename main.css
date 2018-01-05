@@ -90,6 +90,7 @@ body {
 .main .extensible input {
 	background-color: #AAAAAA;
 	font-family: Courier, monospace;
+	font-weight: bold;
 }
 
 .main .extensible input[id="collapse"] {
