@@ -99,6 +99,10 @@ body {
 	display: none;
 }
 
+.main .extensible input[id="expand"]:focus {
+	display: none;
+}
+
 .main .extensible input[id="expand"]:focus + ul {
 	display: block;
 }
