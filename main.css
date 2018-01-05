@@ -222,7 +222,11 @@ body {
 	text-align: center;
 }
 
-.scroll {
+.footer {
+	background-color: #222222;
+}
+
+.footer .scroll {
 	background-color: #222222;
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
@@ -233,7 +237,7 @@ body {
 	text-align: center;
 }
 
-.scroll button {
+.footer .scroll button {
 	width: 150px;
 	background-color: #AAAAAA;
 	border: 2px outset #555555;
@@ -241,17 +245,17 @@ body {
 	color: #000000;
 }
 
-.scroll button:hover {
+.footer .scroll button:hover {
 	background-color: #FFFFFF;
 }
 
-.scroll button:active {
+.footer .scroll button:active {
 	background-color: #555555;
 	border-style: inset;
 	border-color: #FFFFFF;
 }
 
-.footer {
+.footer .text {
 	background-color: #222222;
 	padding: 15px 300px;
 	font-family: 'Inconsolata', Courier, serif;
