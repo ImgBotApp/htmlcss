@@ -91,12 +91,12 @@ body {
 	background-color: inherit;
 	font-family: Courier, monospace;
 	font-weight: bold;
-	color: #FFAA00;
+	color: #FFAA44;
 	text-decoration: underline;
 }
 
 .main .extensible input: hover {
-	color: #FFBB44;
+	color: #FFDDAA;
 }
 
 .main .extensible input[id="collapse"] {
@@ -161,7 +161,7 @@ body {
 }
 
 .main a:hover {
-	color: #EE3311;
+	color: #AADDFF;
 }
 
 .main tr {
