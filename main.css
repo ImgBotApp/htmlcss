@@ -49,8 +49,8 @@ body {
 
 .navi ul {
 	padding-left: 20px;
-	border-top: 6px solid #FFCC77;
-	border-bottom: 2px solid #FFCC77;
+	border-top: 6px solid #FFBB44;
+	border-bottom: 2px solid #FFBB44;
 	background-color: #222222;
 	font-size: 28px;
 }
@@ -84,7 +84,7 @@ body {
   	padding: 24px 150px;
 	border-left: 2px solid #222222;
 	border-right: 2px solid #222222;
-  	background-color: #885544;
+  	background-color: #AA4433;
 }
 
 .main .extensible input {
