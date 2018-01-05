@@ -10,7 +10,7 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 
 body {
 	padding: 0 15px 15px 15px;
-	background-color: #777777;
+	background-color: #555555;
 	overflow-y: scroll;
 }
 
@@ -84,7 +84,7 @@ body {
   	padding: 24px 150px;
 	border-left: 2px solid #222222;
 	border-right: 2px solid #222222;
-  	background-color: #665544;
+  	background-color: #885544;
 }
 
 .main .extensible input {
