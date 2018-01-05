@@ -229,6 +229,7 @@ body {
 	position: sticky;
 	bottom: 0;
 	border-top: 2px solid #AAAAAA;
+	border-bottom: 2px solid #222222;
 	text-align: center;
 }
 
