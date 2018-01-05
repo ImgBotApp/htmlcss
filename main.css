@@ -93,6 +93,7 @@ body {
 
 .main .extensible input {
 	background-color: inherit;
+	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
 	font-weight: bold;
 	color: #FFAA44;
