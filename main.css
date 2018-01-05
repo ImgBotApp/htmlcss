@@ -87,15 +87,11 @@ body {
   	background-color: #222222;
 }
 
-.main .extensible ul {
+.main .accordion .extensible {
 	display: none;
 }
 
-.main .extensible ul:hover {
-	display: block;
-}
-
-.main .extensible a {
+.main .accordion .expand, .main .accordion .collapse {
 	background-color: inherit;
 	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
@@ -103,24 +99,24 @@ body {
 	color: #FFAA44;
 }
 
-.main .extensible a:hover {
+.main .accordion .expand:hover, .main .accordion .collapse:hover {
 	border-bottom: 2px solid #FFFFFF;
 	color: #FFFFFF;
 }
 
-.main .extensible .collapse {
+.main .accordion .collapse {
 	display: none;
 }
 
-.main .extensible .expand:target {
+.main .accordion .expand:target {
 	display: none;
 }
 
-.main .extensible .expand:target + ul {
+.main .accordion .expand:target + .extensible {
 	display: block;
 }
 
-.main .extensible .expand:target ~ .collapse {
+.main .accordion .expand:target ~ .collapse {
 	display: inline;
 }
 
