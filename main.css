@@ -10,7 +10,7 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 
 body {
 	padding: 0 15px 15px 15px;
-	background-color: #DDDDDD;
+	background-color: #555555;
 }
 
 .header {
@@ -48,8 +48,8 @@ body {
 
 .navi ul {
 	padding-left: 20px;
-	border-top: 6px solid #AA8822;
-	border-bottom: 2px solid #AA8822;
+	border-top: 6px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
 	background-color: #222222;
 	font-size: 28px;
 }
