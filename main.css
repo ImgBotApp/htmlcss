@@ -93,15 +93,13 @@ body {
 
 .main .extensible input {
 	background-color: inherit;
-	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
 	font-weight: bold;
 	color: #FFAA44;
 }
 
 .main .extensible input:hover {
-	border: inherit;
-	border-color: #FFFFFF; 
+	border-bottom: 2px solid #FFFFFF;
 	color: #FFFFFF;
 }
 
