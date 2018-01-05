@@ -91,6 +91,10 @@ body {
 	display: none;
 }
 
+.main .extensible ul:hover {
+	display: block;
+}
+
 .main .extensible input {
 	background-color: inherit;
 	border-bottom: 2px solid #FFAA44;
