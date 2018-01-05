@@ -95,6 +95,10 @@ body {
 	display: block;
 }
 
+.main .extensible ul:hover ~ input[id="expand"] {
+	display: none;
+}
+
 .main .extensible input {
 	background-color: inherit;
 	border-bottom: 2px solid #FFAA44;
