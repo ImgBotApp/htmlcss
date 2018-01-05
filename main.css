@@ -236,7 +236,7 @@ body {
 	text-align: center;
 }
 
-.scroll input[type="submit"] {
+.scroll button {
 	width: 150px;
 	background-color: #AAAAAA;
 	border: 2px outset #555555;
@@ -244,11 +244,11 @@ body {
 	color: #000000;
 }
 
-.scroll input[type="submit"]:hover {
+.scroll button:hover {
 	background-color: #FFFFFF;
 }
 
-.scroll input[type="submit"]:active {
+.scroll button:active {
 	background-color: #555555;
 	border-style: inset;
 	border-color: #FFFFFF;
