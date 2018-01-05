@@ -90,7 +90,7 @@ body {
 .main .extensible input {
 	font-family: Courier, monospace;
 	font-weight: bold;
-	font: #FFBB44;
+	color: #FFBB44;
 	text-decoration: underline;
 }
 
