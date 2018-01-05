@@ -10,7 +10,7 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 
 body {
 	padding: 0 15px 15px 15px;
-	background-color: #555555;
+	background-color: #777777;
 	overflow-y: scroll;
 }
 
@@ -49,8 +49,8 @@ body {
 
 .navi ul {
 	padding-left: 20px;
-	border-top: 6px solid #AAAAAA;
-	border-bottom: 2px solid #AAAAAA;
+	border-top: 6px solid #DDAA55;
+	border-bottom: 2px solid #DDAA55;
 	background-color: #222222;
 	font-size: 28px;
 }
