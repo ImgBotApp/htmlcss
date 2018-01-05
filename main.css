@@ -10,14 +10,14 @@ html, body, h1, h2, h3, h4, h5, p, ol, ul, li, a, image, iframe, form, label, in
 
 body {
 	padding: 0 15px 15px 15px;
-	background-color: #555555;
+	background-color: #DDDDDD;
 }
 
 .header {
 	background-image: url(/images/wall-brick.jpg); /* credit to freeimages.com/photographer/phelle-33720 */
 	background-position: center center;
 	padding: 32px 0;
-  	background-color: #555555;
+  	background-color: #AA5522;
 }
 
 .header, .navi {
@@ -48,8 +48,8 @@ body {
 
 .navi ul {
 	padding-left: 20px;
-	border-top: 6px solid #AAAAAA;
-	border-bottom: 2px solid #AAAAAA;
+	border-top: 6px solid #AA8822;
+	border-bottom: 2px solid #AA8822;
 	background-color: #222222;
 	font-size: 28px;
 }
