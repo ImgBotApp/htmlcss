@@ -124,14 +124,6 @@ body {
 	display: inline;
 }
 
-.main .extensible .collapse:target ~ ul {
-	display: none;
-}
-
-.main .extensible .collapse:target ~ .expand {
-	display: inline;
-}
-
 .main h3, .main h4, .main h5 {
 	font-family: 'Gochi Hand', Palatino, serif;	
 	padding-top: 48px;
