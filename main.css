@@ -195,10 +195,6 @@ body {
 	width: 1000px;
 }
 
-.main textarea[id="message"] {
-	height: 300px;
-}
-
 .main input[type="submit"] {
 	width: 75px;
 	border-style: outset;
