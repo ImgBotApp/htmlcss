@@ -7,23 +7,21 @@
 		<title>RJB Portfolio</title>
 	</head>
 	<body>
-		<section>
+		<header>
 			<a id="scroll"></a>
-			<header>
-				<h1 class="title"><a href="/htmlcss/index.html">RJB</a></h1>
-			</header>
-			<nav>
-				<ul>
-					<li><a href="/htmlcss/apps.html">APPS</a></li>
-					<li><a href="/htmlcss/graphics.html">GRAPHICS</a></li>
-					<li><a class="selected" href="/htmlcss/sounds.html">SOUNDS</a></li>
-					<li><a href="/htmlcss/thoughts.html">THOUGHTS</a></li>
-					<li><a href="/htmlcss/about.html">ABOUT</a></li>
-				</ul>
-			</nav>
-		</section>
-		<section>
-			<main>
+			<h1 class="title"><a href="/htmlcss/index.html">RJB</a></h1>
+		</header>
+		<nav class="sticky">
+			<ul>
+				<li><a href="/htmlcss/apps.html">APPS</a></li>
+				<li><a href="/htmlcss/graphics.html">GRAPHICS</a></li>
+				<li><a href="/htmlcss/sounds.html">SOUNDS</a></li>
+				<li><a href="/htmlcss/thoughts.html">THOUGHTS</a></li>
+				<li><a class="selected" href="/htmlcss/about.html">ABOUT</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
 				<h3>Sounds</h3>
 				<p>
 	I never much tried composing music until recently, after driving three hours to buy a used guitar for $50. Initially I was too distracted, playing in short spurts before forgetting that it existed for several months. I committed to retaining progress by practicing and experimenting more regularly, and later branched out into creating sound effects and chip tunes.
@@ -51,10 +49,12 @@
 				</section>
 			</main>
 		</section>
-		<section>
-			<div class="scroll">
+		<section class="sticky">
+			<footer>
 				<a href="#scroll"><button>Scroll to top</button></a>
-			</div>
+			</footer>
+    	</section>
+		<section>
 			<footer>
 				<p>Copyright © 2012 – 2018 by Robert John Basmaji, all rights reserved.</p>
 			</footer>

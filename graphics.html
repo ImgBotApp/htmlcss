@@ -7,23 +7,21 @@
 		<title>RJB Portfolio</title>
 	</head>
 	<body>
-		<section>
+		<header>
 			<a id="scroll"></a>
-			<header>
-				<h1 class="title"><a href="/htmlcss/index.html">RJB</a></h1>
-			</header>
-			<nav>
-				<ul>
-					<li><a href="/htmlcss/apps.html">APPS</a></li>
-					<li><a class="selected" href="/htmlcss/graphics.html">GRAPHICS</a></li>
-					<li><a href="/htmlcss/sounds.html">SOUNDS</a></li>
-					<li><a href="/htmlcss/thoughts.html">THOUGHTS</a></li>
-					<li><a href="/htmlcss/about.html">ABOUT</a></li>
-				</ul>
-			</nav>
-		</section>
-		<section>
-			<main>
+			<h1 class="title"><a href="/htmlcss/index.html">RJB</a></h1>
+		</header>
+		<nav class="sticky">
+			<ul>
+				<li><a href="/htmlcss/apps.html">APPS</a></li>
+				<li><a href="/htmlcss/graphics.html">GRAPHICS</a></li>
+				<li><a href="/htmlcss/sounds.html">SOUNDS</a></li>
+				<li><a href="/htmlcss/thoughts.html">THOUGHTS</a></li>
+				<li><a class="selected" href="/htmlcss/about.html">ABOUT</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
 				<h3>Graphics</h3>
 				<p>
 	Drawing was the first childhood activity I recall being passionate about. When I discovered video games, I likely spent equal time playing as I did drawing cartoons based on them. In providing illustrations for Energraft, I committed to adhering to the codebase-inherited practice of rendering all sprites pixel perfect. To impart depth I look for opportunities to add meaning to physical form through symbols.
@@ -59,15 +57,13 @@
 						<li><image src="/htmlcss/images/logo-qualiv4.png" alt="Qualiv Logo 4" width="235" height="235"></li>
 					</ul>
 				</section>
-			</main>
-		</section>
-		<section>
-			<div class="scroll">
-				<a href="#scroll"><button>Scroll to top</button></a>
-			</div>
-			<footer>
-				<p>Copyright © 2012 – 2018 by Robert John Basmaji, all rights reserved.</p>
-			</footer>
-		</section>
+			</section>
+		</main>
+		<footer class="sticky">
+			<a href="#scroll"><button>Scroll to top</button></a>
+    	</footer>
+		<footer class="static">
+			<p>Copyright © 2012 – 2018 by Robert John Basmaji, all rights reserved.</p>
+		</footer>
 	</body>
 </html>

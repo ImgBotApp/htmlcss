@@ -44,6 +44,10 @@ body {
 	overflow-y: scroll;
 }
 
+.sticky {
+	position: sticky;
+}
+
 header {
 	background-image: url(/htmlcss/images/wall-brick.jpg); /* credit to freeimages.com/photographer/phelle-33720 */
 	background-position: center center;
@@ -72,12 +76,11 @@ header h1 .selected:hover {
 	border-bottom: 8px solid #FFFFFF;
 }
 
-nav {
-	position: sticky;
+nav.sticky {
 	top: 0;
 }
 
-nav ul {
+nav.sticky ul {
 	padding-left: 20px;
 	border-top: 6px solid #FFBB44;
 	border-bottom: 2px solid #FFBB44;
@@ -85,26 +88,26 @@ nav ul {
 	font-size: 28px;
 }
 
-nav ul li {
+nav.sticky ul li {
 	padding: 5px 15px 5px 15px;
 	display: inline;
 }
 
-nav ul li a {
+nav.sticky ul li a {
 	padding: 0px 15px 0px 15px;
 }
 
-nav ul li a:hover {
+nav.sticky ul li a:hover {
 	border-top: 6px solid #EE3311;
 	border-bottom: 2px solid #EE3311;
 }
 
-nav ul li .selected {
+nav.sticky ul li .selected {
 	border-top: 6px solid #0088FF;
 	border-bottom: 2px solid #0088FF;
 }
 
-nav ul li .selected:hover {
+nav.sticky ul li .selected:hover {
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
@@ -248,7 +251,7 @@ main .iframe {
 	text-align: center;
 }
 
-.scroll {
+footer.sticky {
 	background-color: #222222;
 	padding: 0 300px;
 	font-family: 'Inconsolata', Courier, serif;
@@ -258,7 +261,7 @@ main .iframe {
 	text-align: center;
 }
 
-.scroll button {
+footer.sticky button {
 	width: 150px;
 	background-color: #AAAAAA;
 	border: 2px outset #555555;
@@ -266,17 +269,17 @@ main .iframe {
 	color: #000000;
 }
 
-.scroll button:hover {
+footer.sticky footer button:hover {
 	background-color: #FFFFFF;
 }
 
-.scroll button:active {
+footer.sticky footer button:active {
 	background-color: #555555;
 	border-style: inset;
 	border-color: #FFFFFF;
 }
 
-footer {
+footer.static {
 	background-color: #222222;
 	padding: 15px 300px;
 	font-family: 'Inconsolata', Courier, serif;

@@ -7,38 +7,34 @@
 		<title>RJB Portfolio</title>
 	</head>
 	<body>
-		<section>
+		<header>
 			<a id="scroll"></a>
-			<header>
-				<h1 class="title"><a class="selected" href="/htmlcss/index.html">RJB</a></h1>
-			</header>
-			<nav>
-				<ul>
-					<li><a href="/htmlcss/apps.html">APPS</a></li>
-					<li><a href="/htmlcss/graphics.html">GRAPHICS</a></li>
-					<li><a href="/htmlcss/sounds.html">SOUNDS</a></li>
-					<li><a href="/htmlcss/thoughts.html">THOUGHTS</a></li>
-					<li><a href="/htmlcss/about.html">ABOUT</a></li>
-				</ul>
-			</nav>
-		</section>
-		<section>
-			<main>
+			<h1 class="title"><a href="/htmlcss/index.html">RJB</a></h1>
+		</header>
+		<nav class="sticky">
+			<ul>
+				<li><a href="/htmlcss/apps.html">APPS</a></li>
+				<li><a href="/htmlcss/graphics.html">GRAPHICS</a></li>
+				<li><a href="/htmlcss/sounds.html">SOUNDS</a></li>
+				<li><a href="/htmlcss/thoughts.html">THOUGHTS</a></li>
+				<li><a class="selected" href="/htmlcss/about.html">ABOUT</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
 				<p>
 	This site serves as a portfolio of my work product as well as a basic HTML/CSS demo I built at the outset of my web development learning.
 				</p>
 				<ul class="images">
 	<li><image src="/htmlcss/images/hamster.png" alt="Hamster"></li> <!- credit to www.freeimages.com/photographer/Meditations-62723 ->
 				</ul>
-			</main>
-		</section>
-		<section>
-			<div class="scroll">
-				<a href="#scroll"><button>Scroll to top</button></a>
-			</div>
-			<footer>
-				<p>Copyright © 2012 – 2018 by Robert John Basmaji, all rights reserved.</p>
-			</footer>
-		</section>
+			</section>
+		</main>
+		<footer class="sticky">
+			<a href="#scroll"><button>Scroll to top</button></a>
+    	</footer>
+		<footer class="static">
+			<p>Copyright © 2012 – 2018 by Robert John Basmaji, all rights reserved.</p>
+		</footer>
 	</body>
 </html>
