@@ -44,40 +44,40 @@ body {
 	overflow-y: scroll;
 }
 
-.header {
+header {
 	background-image: url(/htmlcss/images/wall-brick.jpg); /* credit to freeimages.com/photographer/phelle-33720 */
 	background-position: center center;
 	padding: 32px 0;
   	background-color: #555555;
 }
 
-.header, .navi {
+header, nav {
 	text-align: center;
 	font-family: 'Gochi Hand', Palatino, serif;	
 }
 
-.header h1 {
+header h1 {
 	font-size: 56px;
 }
 
-.header h1 a:hover {
+header h1 a:hover {
 	border-bottom: 8px solid #EE3311;
 }
 
-.header h1 .selected {
+header h1 .selected {
 	border-bottom: 8px solid #0088FF;
 }
 
-.header h1 .selected:hover {
+header h1 .selected:hover {
 	border-bottom: 8px solid #FFFFFF;
 }
 
-.navi {
+nav {
 	position: sticky;
 	top: 0;
 }
 
-.navi ul {
+nav ul {
 	padding-left: 20px;
 	border-top: 6px solid #FFBB44;
 	border-bottom: 2px solid #FFBB44;
@@ -85,31 +85,31 @@ body {
 	font-size: 28px;
 }
 
-.navi ul li {
+nav ul li {
 	padding: 5px 15px 5px 15px;
 	display: inline;
 }
 
-.navi ul li a {
+nav ul li a {
 	padding: 0px 15px 0px 15px;
 }
 
-.navi ul li a:hover {
+nav ul li a:hover {
 	border-top: 6px solid #EE3311;
 	border-bottom: 2px solid #EE3311;
 }
 
-.navi ul li .selected {
+nav ul li .selected {
 	border-top: 6px solid #0088FF;
 	border-bottom: 2px solid #0088FF;
 }
 
-.navi ul li .selected:hover {
+nav ul li .selected:hover {
 	border-top: 6px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 }
 
-.main {
+main {
 	margin: 0 150px;
   	padding: 24px 150px;
 	border-left: 2px solid #222222;
@@ -117,11 +117,11 @@ body {
   	background-color: #222222;
 }
 
-.main .accordion .extensible {
+main .accordion .extensible {
 	display: none;
 }
 
-.main .accordion .expand, .main .accordion .collapse {
+main .accordion .expand, main .accordion .collapse {
 	background-color: inherit;
 	border-bottom: 2px solid #FFAA44;
 	font-family: Courier, monospace;
@@ -129,71 +129,71 @@ body {
 	color: #FFAA44;
 }
 
-.main .accordion .expand:hover, .main .accordion .collapse:hover {
+main .accordion .expand:hover, main .accordion .collapse:hover {
 	border-bottom: 2px solid #FFFFFF;
 	color: #FFFFFF;
 }
 
-.main .accordion .collapse {
+main .accordion .collapse {
 	display: none;
 }
 
-.main .accordion .expand:target {
+main .accordion .expand:target {
 	display: none;
 }
 
-.main .accordion .expand:target + .extensible {
+main .accordion .expand:target + .extensible {
 	display: block;
 }
 
-.main .accordion .expand:target ~ .collapse {
+main .accordion .expand:target ~ .collapse {
 	display: inline;
 }
 
-.main h3, .main h4, .main h5 {
+main h3, main h4, main h5 {
 	font-family: 'Gochi Hand', Palatino, serif;	
 	padding-top: 48px;
 }
 
-.main h3 {
+main h3 {
 	font-size: 36px;
 }
 
-.main h4 {
+main h4 {
 	font-size: 30px;
 }
 
-.main h5 {
+main h5 {
 	font-size: 24px;
 }
 
-.main ul {
+main ul {
 	padding: 24px 0;
 	border: 2px solid #AAAAAA;
 	background-color: #555555;
 	text-align: center;
 }
 
-.main ul li {
+main ul li {
 	display: inline;
 }
 
-.main a {
+main a {
 	border-bottom: 2px solid #0088FF;
 	color: #0088FF;
 }
 
-.main a:hover {
+main a:hover {
 	border-color: #FFFFFF;
 	color: #FFFFFF;
 }
 
-.main tr {
+main tr {
 	display: block;
 	vertical-align: top;
 }
 
-.main p, .main form {
+main p, main form {
 	margin-top: 24px;
 	font-size: 20px;
 	text-align: justify;
@@ -201,48 +201,48 @@ body {
 	font-family: 'Inconsolata', Courier, serif;
 }
 
-.main label {
+main label {
 	width: 100px;
 	float: left;
 }
 
-.main input, .main textarea {
+main input, main textarea {
 	border: 2px solid #222222;
 	background-color: #FFFFFF;
 	font-weight: normal;
 	color: #000000;
 }
 
-.main input:focus, .main textarea:focus {
+main input:focus, main textarea:focus {
 	border-color: #FFAA00;
 }
 
-.main input[id="name"], .main input[id="email"] {
+main input[id="name"], main input[id="email"] {
 	width: 500px;
 }
 
-.main input[id="subject"], .main textarea[id="message"] {
+main input[id="subject"], main textarea[id="message"] {
 	width: 1000px;
 }
 
-.main input[type="submit"] {
+main input[type="submit"] {
 	width: 75px;
 	border-style: outset;
 	border-color: #222222;
 	font-weight: bold;
 }
 
-.main input[type="submit"]:hover {
+main input[type="submit"]:hover {
 	border-color: #FFAA00;
 }
 
-.main input[type="submit"]:active {
+main input[type="submit"]:active {
 	border-style: inset;
 	border-color: #AAAAAA;
 	background-color: #AAAAAA;
 }
 
-.main .iframe {
+main .iframe {
 	padding: 24px 0;
 	background-color: #222222;
 	text-align: center;
@@ -276,7 +276,7 @@ body {
 	border-color: #FFFFFF;
 }
 
-.footer {
+footer {
 	background-color: #222222;
 	padding: 15px 300px;
 	font-family: 'Inconsolata', Courier, serif;
